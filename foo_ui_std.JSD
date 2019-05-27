@@ -15,18 +15,24 @@
 :Description Announces the total time of the currently playing track.
 
 :function getTimeParts
-:Returns intArray No Return Description
+:Returns intArray [hours, minutes, seconds]
 :SearchRank 1
+:Synopsis Returns an array of [hours, minutes, seconds]
+:Description Using the given time string, this function returns an array containing the time string's components.
 :Param string/timestamp No Description
 
 :function getNumberOfSeconds
-:Returns int No Return Description
+:Returns int Number of seconds
 :SearchRank 1
+:Synopsis Gets the number of seconds represented by a timestamp
+:Description Given a timestamp in hours:minutes:seconds format, returns the number of seconds represented by the timestamp.
 :Param string/timestamp No Description
 
 :function getTimeStringFromSeconds
-:Returns string No Return Description
+:Returns string A string in the form: a hours, b minutes and c seconds
 :SearchRank 1
+:Synopsis Gets a user-friendly time string for a quantity of seconds.
+:Description Given a time represented in seconds, this function returns a string in the form "a hours, b minutes and c seconds."
 :Param int/totalSeconds No Description
 
 :function getTimeString

@@ -102,6 +102,6 @@ string Function getTimeString ()
 	if (statusLine == "Playback stopped.")
 		return "";
 	endIf
-statusLine = StringStripAllBlanks(statusLine);
+	statusLine = StringStripAllBlanks(statusLine);
 	return StringSegment (statusLine, "|", -1);
 EndFunction
