@@ -1,0 +1,38 @@
+:script SayRemainingTime
+:SearchRank 1
+:Synopsis Announces remaining time.
+:Description Announces the remaining time of the currently playing track.
+:Category Say
+
+:script SayElapsedTime
+:SearchRank 1
+:Synopsis Announces elapsed time.
+:Description Announces the time elapsed in the currently playing track.
+
+:script SayTotalTime
+:SearchRank 1
+:Synopsis Announces total time.
+:Description Announces the total time of the currently playing track.
+
+:function getTimeParts
+:Returns intArray No Return Description
+:SearchRank 1
+:Param string/timestamp No Description
+
+:function getNumberOfSeconds
+:Returns int No Return Description
+:SearchRank 1
+:Param string/timestamp No Description
+
+:function getTimeStringFromSeconds
+:Returns string No Return Description
+:SearchRank 1
+:Param int/totalSeconds No Description
+
+:function getTimeString
+:Returns string Elapsed / total
+:SearchRank 1
+:Synopsis Returns the time string as displayed by the Foobar status line.
+:Description This function returns the time string in the Foobar default format, which is elapsed / total
+:Category Application
+

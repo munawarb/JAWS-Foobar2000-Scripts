@@ -1,0 +1,5 @@
+[Common Keys]
+Shift+Control+T=sayTotalTime
+[Laptop Keys]
+Shift+Control+R=SayRemainingTime
+Shift+Control+E=SayElapsedTime
